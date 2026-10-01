@@ -1,19 +1,88 @@
 name: Sync Leetcode
 
 on:
-  workflow_dispatch:     # इससे आप जब चाहें खुद बटन दबाकर सिंक कर सकते हैं
+  workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *'  # यह हर दिन अपने आप रन होगा
+    - cron: '0 8 * * *'
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # किसी भी संभावित एरर से बचने के लिए स्टेबल वर्जन सेट किया है
 
     steps:
-      - name: Sync
-        uses: LeoCen/leetcode-sync@v2
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
-          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-          destination-folder: my-submissions
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Fetch and Sync LeetCode
+        env:
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+        run: |
+          python -c "
+          import os, requests, json
+          
+          # Headers Setup
+          headers = {
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+              'Cookie': f'LEETCODE_SESSION={os.getenv(\"LEETCODE_SESSION\")}; csrftoken={os.getenv(\"LEETCODE_CSRF_TOKEN\")}',
+              'X-CSRFToken': os.getenv('LEETCODE_CSRF_TOKEN'),
+              'Referer': 'https://leetcode.com'
+          }
+          
+          # Fetch Submissions
+          query = '''
+          query submissionList($offset: Int!, $limit: Int!) {
+            submissionList(offset: $offset, limit: $limit) {
+              submissions {
+                id title lang titleSlug statusDisplay timestamp
+              }
+            }
+          }
+          '''
+          
+          res = requests.post('https://leetcode.comgraphql/', json={'query': query, 'variables': {'offset': 0, 'limit': 20}}, headers=headers)
+          if res.status_code != 200:
+              print('Failed to connect LeetCode'); exit(1)
+              
+          data = res.json().get('data', {}).get('submissionList', {}).get('submissions', [])
+          accepted = [s for s in data if s['statusDisplay'] == 'Accepted']
+          
+          if not accepted:
+              print('No new accepted submissions found.'); exit(0)
+              
+          # Create Folder
+          os.makedirs('my-submissions', exist_ok=True)
+          
+          # Process latest accepted submission
+          sub = accepted[0]
+          title = sub['titleSlug']
+          lang = sub['lang']
+          
+          # Extension Mapping
+          ext = '.py' if 'python' in lang else '.cpp' if 'cpp' in lang else '.java' if 'java' in lang else '.js' if 'javascript' in lang else '.txt'
+          
+          # Fetch Code Detail
+          detail_query = 'query submissionDetails($submissionId: ID!) { submissionDetails(submissionId: $submissionId) { code } }'
+          d_res = requests.post('https://leetcode.comgraphql/', json={'query': detail_query, 'variables': {'submissionId': sub['id']}}, headers=headers)
+          code = d_res.json().get('data', {}).get('submissionDetails', {}).get('code', '')
+          
+          # Save file
+          with open(f'my-submissions/{title}{ext}', 'w', encoding='utf-8') as f:
+              f.write(code)
+          print(f'Successfully saved {title}{ext}')
+          "
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add my-submissions/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync LeetCode Submission" && git push)
