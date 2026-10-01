@@ -3,7 +3,7 @@ name: Sync Leetcode
 on:
   workflow_dispatch:     # इससे आप जब चाहें खुद बटन दबाकर सिंक कर सकते हैं
   schedule:
-    - cron: '0 8 * * *'  # यह हर दिन सुबह 8:00 AM UTC (भारतीय समयानुसार दोपहर 1:30 PM) पर अपने आप चलेगा
+    - cron: '0 8 * * *'  # यह हर दिन अपने आप रन होगा
 
 jobs:
   build:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Sync
-        uses: jasonruesch/leetcode-sync@v2
+        uses: LeoCen/leetcode-sync@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
