@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0015-3sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0128-longest-consecutive-sequence](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0219-contains-duplicate-ii) |
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0219-contains-duplicate-ii) |
 ## Sliding Window
@@ -93,4 +95,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
