@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0075-sort-colors) |
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
+| [0905-sort-array-by-parity](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0905-sort-array-by-parity) |
 ## String
 |  |
 | ------- |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0560-subarray-sum-equals-k](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0560-subarray-sum-equals-k) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
+| [0905-sort-array-by-parity](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0905-sort-array-by-parity) |
 ## Sorting
 |  |
 | ------- |
@@ -55,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0389-find-the-difference) |
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
+| [0905-sort-array-by-parity](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0905-sort-array-by-parity) |
 ## Dynamic Programming
 |  |
 | ------- |
