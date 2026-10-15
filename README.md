@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
 | [0905-sort-array-by-parity](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0905-sort-array-by-parity) |
+| [0922-sort-array-by-parity-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0922-sort-array-by-parity-ii) |
 ## String
 |  |
 | ------- |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0560-subarray-sum-equals-k) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
 | [0905-sort-array-by-parity](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0905-sort-array-by-parity) |
+| [0922-sort-array-by-parity-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0922-sort-array-by-parity-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
 | [0905-sort-array-by-parity](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0905-sort-array-by-parity) |
+| [0922-sort-array-by-parity-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0922-sort-array-by-parity-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
