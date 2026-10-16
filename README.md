@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0015-3sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0041-first-missing-positive](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0041-first-missing-positive) |
 | [0075-sort-colors](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0078-subsets) |
 | [0128-longest-consecutive-sequence](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0041-first-missing-positive) |
 | [0128-longest-consecutive-sequence](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0219-contains-duplicate-ii) |
