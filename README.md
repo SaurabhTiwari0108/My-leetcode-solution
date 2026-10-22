@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0219-contains-duplicate-ii) |
+| [0414-third-maximum-number](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0560-subarray-sum-equals-k](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0560-subarray-sum-equals-k) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
 | [0389-find-the-difference](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0389-find-the-difference) |
+| [0414-third-maximum-number](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
 | [0905-sort-array-by-parity](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0905-sort-array-by-parity) |
