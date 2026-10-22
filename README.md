@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0015-3sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0075-sort-colors) |
+| [0202-happy-number](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0202-happy-number) |
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
 | [0905-sort-array-by-parity](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0905-sort-array-by-parity) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0041-first-missing-positive) |
 | [0128-longest-consecutive-sequence](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0202-happy-number) |
 | [0219-contains-duplicate-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0219-contains-duplicate-ii) |
 | [0389-find-the-difference](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0389-find-the-difference) |
 | [0560-subarray-sum-equals-k](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0560-subarray-sum-equals-k) |
@@ -153,4 +155,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1094-car-pooling](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/1094-car-pooling) |
+## Math
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0202-happy-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
