@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0238-product-of-array-except-self) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0414-third-maximum-number](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0560-subarray-sum-equals-k](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0560-subarray-sum-equals-k) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
 ## Hash Table
 |  |
 | ------- |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
 ## Counting
 |  |
 | ------- |
@@ -169,4 +172,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0202-happy-number) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Segment Tree
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Merge Sort
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Ordered Set
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Treap
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
 <!---LeetCode Topics End-->
