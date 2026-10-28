@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0075-sort-colors) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0202-happy-number) |
 | [0455-assign-cookies](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0881-boats-to-save-people) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0078-subsets) |
 | [0128-longest-consecutive-sequence](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0238-product-of-array-except-self) |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
 ## Hash Table
 |  |
