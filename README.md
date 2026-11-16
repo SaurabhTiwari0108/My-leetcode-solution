@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0032-longest-valid-parentheses) |
+| [0094-binary-tree-inorder-traversal](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0678-valid-parenthesis-string](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0678-valid-parenthesis-string) |
 ## Bracket Sequences
 |  |
@@ -195,4 +196,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/SaurabhTiwari0108/My-leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
